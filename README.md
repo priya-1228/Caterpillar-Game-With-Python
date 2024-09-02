@@ -7,10 +7,13 @@ Caterpillar Game with Python
 To make the crawler game with Python, the biggest challenge is knowing how to move it around the screen. To move it around the screen, I’ll use an infinite loop. Each time the loop goes around, the caterpillar moves forward slightly. When the loop repeats quickly, these small movements will create the illusion that the caterpillar is crawling.
 
 Let’s have a look at the process of creating the caterpillar game with Python before you start with the coding part:
-
 1) I will first start by setting the properties of leaf and the caterpillar.
+   
 2)Then I will set the starting values like the speed and size of the caterpillar at the start of the game and the score of the game.
+
 3)Then I will program the caterpillar to move forward, here I will be using the if and else statements; to check if the caterpillar has made contact with the leaf or not.
+
 4)If the caterpillar has not made contact with the leaf we will check that whether it has left the screen or not, if it has left the screen we will stop the game and show the game over.
+
 5)If the caterpillar has now left the screen we will move the leaf in a now random position and increase the size of the caterpillar and increase the score. 
   And we will keep repeating this process.
